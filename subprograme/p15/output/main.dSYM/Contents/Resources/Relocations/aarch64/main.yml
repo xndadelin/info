@@ -1,0 +1,5 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/xndadelin/Projects/Informatica/subprograme/p15/output/main'
+relocations:     []
+...

@@ -1,0 +1,15 @@
+1. 
+- endpoint: stock per depot
+- scop: trebuie sa returneze stocul separat pentru fiecare depozit (Cal 1, Cal 2, RSS, etc.) impreuna cu flag-ul `is_dropship`
+- input exemplu: {"modul": "radburg2026", "metoda": "stock", "action": "import_detailed"}
+- output exemplu: 
+{
+    "SKU": "6847169",
+    "product_id": "P1001",
+    "depozite": [
+      {"nume": "Holding Radburg", "Stoc": "150", "calitate": "1", "is_dropship": false},
+      {"nume": "Deldo", "Stoc": "45", "calitate": "1", "is_dropship": true}
+    ]
+}
+
+2.
